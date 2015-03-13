@@ -46,28 +46,6 @@ body{
 /** NAV **/
 
 #nav{
-	max-width: 817px;
-	margin: 0 auto;
-	padding: 10px 0;
-	list-style-type: none;
-	border-bottom: 1px #ccc dashed;
-}
-#nav li{
-	display: inline-block;
-}
-#nav li a{
-	display: block;
-	padding: 0 10px;
-}
-#nav li a:link{
-	text-decoration: none;
-	color: #db1547;
-	line-height: 1em;
-}
-#nav li a:visited, #nav li a:hover{color: #666;}
-#nav li a:active{text-decoration: underline;}
-
-#nav{
 	max-width: 892px;
 	margin: 0 auto;
 	padding: 10px 0;
