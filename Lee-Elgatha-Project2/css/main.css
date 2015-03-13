@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Raleway+Dots;
+@charset "UTF-8";
+/* CSS Document */
 
 /** LAYOUT **/
 
@@ -21,25 +22,10 @@ html{
 	-webkit-box-shadow: 2px 2px 2px #ccc;
 	overflow: auto;
 }
-
-body{
-	font: 1em/1.5em 'Raleway', sans-serif;
-    background-color: #FFF;
-	color: #000;
-	max-width: 1000px;
-	margin: 0 auto;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	box-shadow: 2px 2px 2px #ccc;
-	-moz-box-shadow: 2px 2px 2px #ccc;
-	-webkit-box-shadow: 2px 2px 2px #ccc;
-	overflow: auto;
-}
 #header{
 	padding: 60px 5% 0 5%;
 }
-#content{
+#page{
 	padding: 20px 30px 20px 30px;
 }
 
@@ -73,7 +59,7 @@ body{
 }
 
 
-/** HEADERS | CAPTIONS**/
+/** HEADERS **/
 
 h1, h2, h3, h4{font-family: 'Raleway', sans-serif;}
 h1{
@@ -99,6 +85,17 @@ h5{
 	color: #db1547;
 }
 
+figcaption{
+	color: #db1547;
+	font-style: italic;
+	font-size: 0.65em;
+	width: 100%;
+	line-height: 1.25em;
+	margin-top: 5px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+
 h6 {
 	color: #064898;
 }
@@ -110,16 +107,18 @@ a:hover{
    color: #000;
 }
 
-figcaption{
-	color: #db1547;
-	font-style: italic;
-	font-size: 0.65em;
-	width: 100%;
-	line-height: 1.25em;
-	margin-top: 5px;
-	text-align: center;
-	color: rgb(0, 0, 0);
+
+
+#alcohol,#eating{
+    text-align: justify;
+    background-color: #DCDCDC;
+    width: 350px;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
+
 
 /** LIST **/
 
@@ -155,12 +154,11 @@ dl{
 /** IMAGES **/
 
 #gallery{
-	width: 24%;
-	background:  #53A8D7;
-	margin: 3%;
-	padding: 3%;
-	float: right;
-	clear: none;
+	width: 860px;
+	background-color: #f9f9f9;
+	margin: 30px;
+	padding: 20px;
+	display: inline-block;
 }
 
 figure {
@@ -181,8 +179,8 @@ figure a {
 }
 
 img {
-    width: 100%;
-    margin: auto;
+    width: 50%;
+    margin: 30px;
 	height: auto;
     border-style: solid;
     border-color: #FFF;
@@ -200,3 +198,4 @@ img:hover {
 
 a {
 	max-height: 91px;
+}
