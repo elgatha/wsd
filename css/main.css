@@ -4,7 +4,7 @@
 /** LAYOUT **/
 
 html{
-	background: #efefef;
+	background: #efefef url('../images/pattern_099.gif') repeat center;
 	padding: 20px 0;
 }
 
@@ -12,7 +12,7 @@ html{
 	font: 1em/1.5em 'Raleway', sans-serif;
     background-color: #FFF;
 	color: #000;
-	max-width: 1000px;
+	max-width: 75%;
 	margin: 0 auto;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -26,13 +26,23 @@ html{
 	padding: 60px 5% 0 5%;
 }
 #page{
-	padding: 20px 30px 20px 30px;
+	padding: 20px 5%;
+	width: 54%;
+	float: left;
+	clear: left;
+}
+
+footer{
+	clear: both;
+	padding: 20px 3%;
+	text-align: center;
+	font-size: 0.8em;
 }
 
 /** NAV **/
 
 #nav{
-	max-width: 892px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 10px 0;
 	list-style-type: none;
@@ -112,7 +122,7 @@ a:hover{
 #alcohol,#eating{
     text-align: justify;
     background-color: #DCDCDC;
-    width: 350px;
+    width: 73%;
     margin: auto;
     padding: 50px;
     border: 1px solid #ccc;
@@ -141,7 +151,7 @@ ul{
 dl{
 	text-align: justify;
 	background-color: #53A8D7;
-	width: 400px;
+	width: 50%;
 	margin: auto;
 	padding: 50px;
 	border: 1px solid #CCC;
@@ -154,11 +164,12 @@ dl{
 /** IMAGES **/
 
 #gallery{
-	width: 860px;
-	background-color: #f9f9f9;
-	margin: 30px;
-	padding: 20px;
-	display: inline-block;
+	width: 24%;
+	background: linear-gradient(to bottom, #53A8D7 0%, rgba(255, 255, 255, 0) 100%) repeat scroll 0% 0% #FFF300;
+	margin: 3%;
+	padding: 3%;
+	float: right;
+	clear: right;
 }
 
 figure {
@@ -179,8 +190,8 @@ figure a {
 }
 
 img {
-    width: 50%;
-    margin: 30px;
+    width: 100%;
+    margin: auto;
 	height: auto;
     border-style: solid;
     border-color: #FFF;
